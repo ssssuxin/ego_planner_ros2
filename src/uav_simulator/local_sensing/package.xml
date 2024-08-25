@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+  <name>local_sensing_node</name>
+  <version>0.1.0</version>
+  <description>
+    render depth from depth
+  </description>
+  <author>Matia Pizzoli</author>
+  <maintainer email="matia.pizzoli@gmail.com">Matia Pizzoli</maintainer>
+  <license>GPLv3</license>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <!-- <buildtool_depend>catkin</buildtool_depend> -->
+
+  <!-- Dependencies needed to compile this package. -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- <build_depend>rclcpp,std_msgs,sensor_msgs,pcl_ros,nav_msgs,visualization_msgs</build_depend> -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>quadrotor_msgs</test_depend>
+  <!-- 这个是测试依赖项，不知道具体什么用 -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

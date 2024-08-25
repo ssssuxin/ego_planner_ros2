@@ -1,0 +1,6 @@
+这个
+colcon build --symlink-install
+ros2 launch ego_planner single_run_in_sim.launch.py 
+可直接使用，是单个的精简版，
+然后多个蜂群的launch.py还没有做，还有相关的包也没转，多个的话这个得在全版那里做
+

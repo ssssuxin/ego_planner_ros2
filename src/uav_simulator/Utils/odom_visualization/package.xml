@@ -1,0 +1,25 @@
+<package>
+  <version>0.0.0</version>
+  <name>odom_visualization</name>
+  <description>
+
+     odom_visualization
+
+  </description>
+  <maintainer email="eeshaojie@todo.todo">Shaojie Shen</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/odom_visualization</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- <build_depend>rclcpp,std_msgs,sensor_msgs,pcl_ros,nav_msgs,visualization_msgs</build_depend> -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>quadrotor_msgs</test_depend>
+  <!-- 这个是测试依赖项，不知道具体什么用 -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
+
+
