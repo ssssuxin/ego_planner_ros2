@@ -40,6 +40,7 @@ find_package(nav_msgs REQUIRED)
 #   cv_bridge
 # )
 find_package(Eigen3 REQUIRED)
+find_package(message_filters REQUIRED)
 set(MY_DEPENDENCIES
   rclcpp
   std_msgs
@@ -54,6 +55,7 @@ set(MY_DEPENDENCIES
   # PCL
   Eigen3
   nav_msgs
+  message_filters
 )
 
 find_package(PCL 1.7 REQUIRED)
